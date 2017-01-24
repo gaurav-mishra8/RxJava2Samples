@@ -19,4 +19,8 @@
     <string name="subject_async">Async Subject</string>
     <string name="subject_publish">Publish Subject</string>
     <string name="subject_replay">Replay Subject</string>
+    <string name="operator_throttle">Throttle</string>
+    <string name="operator_completable">Completable Observer</string>
+    <string name="operator_flowable">Flowable Observable</string>
+    <string name="operator_single">Single Observer</string>
 </resources>

@@ -44,6 +44,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button subPublish;
     @BindView(R.id.btn_sub_async)
     Button subAsync;
+    @BindView(R.id.btn_completable)
+    Button completable;
+    @BindView(R.id.btn_single)
+    Button single;
+    @BindView(R.id.btn_flowable)
+    Button flowable;
+    @BindView(R.id.btn_throttle)
+    Button throttle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,12 +76,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         subBehaviour.setOnClickListener(this);
         subPublish.setOnClickListener(this);
         subReplay.setOnClickListener(this);
+        completable.setOnClickListener(this);
+        flowable.setOnClickListener(this);
+        throttle.setOnClickListener(this);
+        single.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
 
         switch (v.getId()) {
+            case R.id.btn_single:
+                SingleObserverExampleActivity.startActivity(this);
+                break;
+            case R.id.btn_flowable:
+                FlowableObservableExmapleActivity.startActivity(this);
+                break;
+            case R.id.btn_throttle:
+                ThrottleExampleActivity.startActivity(this);
+                break;
+            case R.id.btn_completable:
+                CompletableObserverExampleActivity.startActivity(this);
+                break;
             case R.id.btn_map:
                 MapExampleActivity.startActivity(this);
                 break;

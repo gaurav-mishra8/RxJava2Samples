@@ -16,6 +16,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".SingleObserverExampleActivity"/>
+        <activity android:name=".FlowableObservableExmapleActivity"/>
+        <activity android:name=".CompletableObserverExampleActivity"/>
+        <activity android:name=".ThrottleExampleActivity"/>
         <activity android:name=".MapExampleActivity" />
         <activity android:name=".FlatMapExampleActivity" />
         <activity android:name=".ZipExampleActivity" />

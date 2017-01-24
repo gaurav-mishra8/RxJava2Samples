@@ -12,6 +12,27 @@
         android:gravity="center"
         android:orientation="vertical">
 
+
+        <Button
+            android:id="@+id/btn_single"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_single" />
+
+        <Button
+            android:id="@+id/btn_flowable"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_flowable" />
+
+        <Button
+            android:id="@+id/btn_completable"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_completable" />
+
+        <Button
+            android:id="@+id/btn_throttle"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_throttle" />
+
         <Button
             android:id="@+id/btn_map"
             style="@style/CustomButtonStyle"
