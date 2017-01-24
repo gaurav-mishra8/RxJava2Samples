@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_map"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_map" />
+
+        <Button
+            android:id="@+id/btn_flatmap"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_flatmap" />
+
+        <Button
+            android:id="@+id/btn_zip"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_zip" />
+
+        <Button
+            android:id="@+id/btn_threading"
+            style="@style/CustomButtonStyle"
+            android:text="@string/threading" />
+
+        <Button
+            android:id="@+id/btn_amb"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_amb" />
+
+        <Button
+            android:id="@+id/btn_repeat"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_repeat" />
+
+        <Button
+            android:id="@+id/btn_retry"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_retry" />
+
+        <Button
+            android:id="@+id/btn_skip"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_skip" />
+
+        <Button
+            android:id="@+id/btn_filter"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_filter" />
+
+        <Button
+            android:id="@+id/btn_buffer"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_buffer" />
+
+        <Button
+            android:id="@+id/btn_debounce"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_debounce" />
+
+        <Button
+            android:id="@+id/btn_take"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_take" />
+
+        <Button
+            android:id="@+id/btn_scan"
+            style="@style/CustomButtonStyle"
+            android:text="@string/operator_scan" />
+
+
+    </LinearLayout>
+
+</ScrollView>

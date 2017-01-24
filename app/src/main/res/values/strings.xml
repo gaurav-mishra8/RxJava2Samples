@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RxJava2Samples</string>
+    <string name="operator_map">map</string>
+    <string name="operator_flatmap">Flatmap</string>
+    <string name="operator_zip">zip</string>
+    <string name="operator_defer">defer</string>
+    <string name="start">start</string>
+    <string name="threading">Threading</string>
+    <string name="operator_amb">amb</string>
+    <string name="operator_repeat">repeat</string>
+    <string name="operator_retry">Retry</string>
+    <string name="operator_skip">skip</string>
+    <string name="operator_filter">filter</string>
+    <string name="operator_buffer">Buffer</string>
+    <string name="operator_debounce">Debounce</string>
+    <string name="operator_take">Take</string>
+    <string name="operator_scan">Scan</string>
+</resources>
