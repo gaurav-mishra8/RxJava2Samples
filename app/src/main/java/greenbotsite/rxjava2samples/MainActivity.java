@@ -36,6 +36,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button scan;
     @BindView(R.id.btn_take)
     Button take;
+    @BindView(R.id.btn_sub_replay)
+    Button subReplay;
+    @BindView(R.id.btn_sub_behaviour)
+    Button subBehaviour;
+    @BindView(R.id.btn_sub_publish)
+    Button subPublish;
+    @BindView(R.id.btn_sub_async)
+    Button subAsync;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +64,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         retry.setOnClickListener(this);
         scan.setOnClickListener(this);
         take.setOnClickListener(this);
+        subAsync.setOnClickListener(this);
+        subBehaviour.setOnClickListener(this);
+        subPublish.setOnClickListener(this);
+        subReplay.setOnClickListener(this);
     }
 
     @Override
@@ -100,6 +112,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_scan:
                 ScanExampleActivity.startActivity(this);
+                break;
+            case R.id.btn_sub_async:
+                AsyncSubjectExampleActivity.startActivity(this);
+                break;
+            case R.id.btn_sub_behaviour:
+                BehaviourSubjectExampleActivity.startActivity(this);
+                break;
+            case R.id.btn_sub_publish:
+                PublishSubjectExampleActivity.startActivity(this);
+                break;
+            case R.id.btn_sub_replay:
+                ReplaySubjectExampleActivity.startActivity(this);
                 break;
         }
 

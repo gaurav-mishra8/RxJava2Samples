@@ -29,6 +29,10 @@
         <activity android:name=".DebounceExampleActivity" />
         <activity android:name=".ScanExampleActivity" />
         <activity android:name=".TakeExampleActivity" />
+        <activity android:name=".AsyncSubjectExampleActivity" />
+        <activity android:name=".BehaviourSubjectExampleActivity" />
+        <activity android:name=".PublishSubjectExampleActivity" />
+        <activity android:name=".ReplaySubjectExampleActivity" />
     </application>
 
 </manifest>

@@ -77,6 +77,26 @@
             style="@style/CustomButtonStyle"
             android:text="@string/operator_scan" />
 
+        <Button
+            android:id="@+id/btn_sub_replay"
+            style="@style/CustomButtonStyle"
+            android:text="@string/subject_replay" />
+
+        <Button
+            android:id="@+id/btn_sub_publish"
+            style="@style/CustomButtonStyle"
+            android:text="@string/subject_publish" />
+
+        <Button
+            android:id="@+id/btn_sub_async"
+            style="@style/CustomButtonStyle"
+            android:text="@string/subject_async" />
+
+        <Button
+            android:id="@+id/btn_sub_behaviour"
+            style="@style/CustomButtonStyle"
+            android:text="@string/subject_behaviour" />
+
 
     </LinearLayout>
 

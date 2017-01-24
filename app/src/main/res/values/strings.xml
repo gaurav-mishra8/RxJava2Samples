@@ -15,4 +15,8 @@
     <string name="operator_debounce">Debounce</string>
     <string name="operator_take">Take</string>
     <string name="operator_scan">Scan</string>
+    <string name="subject_behaviour">Behaviour Subject</string>
+    <string name="subject_async">Async Subject</string>
+    <string name="subject_publish">Publish Subject</string>
+    <string name="subject_replay">Replay Subject</string>
 </resources>
